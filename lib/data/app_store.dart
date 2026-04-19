@@ -6,7 +6,7 @@ import '../models/notification_models.dart';
 class AppStore {
   static final List<TeacherProfile> teachers = [
     const TeacherProfile(
-      name: 'Delowar Husain',
+      name: 'Sohag Ali',
       subject: 'গণিত | এইচএসসি ও ভর্তি',
       rating: 4.9,
       response: '১০ মিনিটে সাড়া',
@@ -34,9 +34,9 @@ class AppStore {
   static final List<TeacherRequest> requests = [
     TeacherRequest(
       id: 'demo-request-1',
-      studentName: 'Delowar Husain',
+      studentName: 'Sohag Ali',
       studentEmail: 'student@gmail.com',
-      teacherName: 'Delowar Husain',
+      teacherName: 'Sohag Ali',
       teacherEmail: 'delowar.teacher@solvemate.test',
       problemTitle: 'এইচএসসি গণিত: ইন্টিগ্রেশন সমস্যা',
       problemDetails: 'ইন্টিগ্রেশনের ধাপগুলো বুঝতে সমস্যা হচ্ছে।',
@@ -45,7 +45,7 @@ class AppStore {
     ),
     TeacherRequest(
       id: 'demo-request-2',
-      studentName: 'Delowar Husain',
+      studentName: 'Sohag Ali',
       studentEmail: 'student@gmail.com',
       teacherName: 'Nusrat Jahan',
       teacherEmail: 'nusrat.teacher@solvemate.test',
@@ -56,7 +56,7 @@ class AppStore {
     ),
     TeacherRequest(
       id: 'demo-request-3',
-      studentName: 'Delowar Husain',
+      studentName: 'Sohag Ali',
       studentEmail: 'student@gmail.com',
       teacherName: 'Rakib Hasan',
       teacherEmail: 'rakib.teacher@solvemate.test',
@@ -67,9 +67,9 @@ class AppStore {
     ),
     TeacherRequest(
       id: 'demo-request-4',
-      studentName: 'Delowar Husain',
+      studentName: 'Sohag Ali',
       studentEmail: 'student@gmail.com',
-      teacherName: 'Delowar Husain',
+      teacherName: 'Sohag Ali',
       teacherEmail: 'delowar.teacher@solvemate.test',
       problemTitle: 'ভর্তি প্রস্তুতি: ইংরেজি গ্রামার সমস্যার সমাধান',
       problemDetails: 'টেন্স ও ভয়েস চেঞ্জের কিছু কনফিউশন আছে।',
@@ -79,7 +79,7 @@ class AppStore {
     ),
     TeacherRequest(
       id: 'demo-request-teacher-1',
-      studentName: 'Delowar Husain',
+      studentName: 'Sohag Ali',
       studentEmail: 'student@gmail.com',
       teacherName: 'Nusrat Jahan',
       teacherEmail: 'nusrat.teacher@solvemate.test',
@@ -91,7 +91,7 @@ class AppStore {
     ),
     TeacherRequest(
       id: 'demo-request-teacher-2',
-      studentName: 'Delowar Husain',
+      studentName: 'Sohag Ali',
       studentEmail: 'student@gmail.com',
       teacherName: 'Rakib Hasan',
       teacherEmail: 'rakib.teacher@solvemate.test',
@@ -103,7 +103,7 @@ class AppStore {
     ),
     TeacherRequest(
       id: 'demo-request-teacher-3',
-      studentName: 'Delowar Husain',
+      studentName: 'Sohag Ali',
       studentEmail: 'student@gmail.com',
       teacherName: 'Nusrat Jahan',
       teacherEmail: 'nusrat.teacher@solvemate.test',
@@ -134,14 +134,14 @@ class AppStore {
 
   static final List<NotificationItem> notifications = [
     NotificationItem(
-      title: 'Delowar Husain থেকে নতুন সরাসরি অনুরোধ',
+      title: 'Sohag Ali থেকে নতুন সরাসরি অনুরোধ',
       message: 'এইচএসসি গণিত: ইন্টিগ্রেশন সমস্যা',
       timeLabel: '২ মিনিট আগে',
       icon: Icons.mark_email_unread_rounded,
       recipientEmail: 'nusrat.teacher@solvemate.test',
     ),
     NotificationItem(
-      title: 'Delowar Husain থেকে নতুন সরাসরি অনুরোধ',
+      title: 'Sohag Ali থেকে নতুন সরাসরি অনুরোধ',
       message: 'এইচএসসি গণিত: ইন্টিগ্রেশন সমস্যা',
       timeLabel: '২ মিনিট আগে',
       icon: Icons.mark_email_unread_rounded,
