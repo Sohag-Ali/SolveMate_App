@@ -25,7 +25,7 @@ class LoginRepository {
     ),
     const AuthUser(
       name: 'Sohag Ali',
-      email: 'delowar.teacher@solvemate.test',
+      email: 'sohag.teacher@solvemate.test',
       phone: '01700000004',
       password: '123456',
       role: UserRole.teacher,
